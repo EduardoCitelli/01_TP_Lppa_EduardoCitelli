@@ -111,13 +111,13 @@ p {
     height: 480px;
 }
 
-#board .checkersSquare .bright {
+#board .checkersSquare.bright {
     background: -moz-linear-gradient(center top, #eeeeee, #ffffff) repeat scroll 0 0 transparent;
     background: -webkit-gradient(linear, center bottom, center top, from(#ffffff), to(#eeeeee));
     background-color: white;
 }
 
-#board .checkersSquare .dark {
+#board .checkersSquare.dark {
     background: -moz-linear-gradient(center top, #222222, #333333) repeat scroll 0 0 transparent;
     background: -webkit-gradient(linear, center bottom, center top, from(#333333), to(#222222));
     background-color: black;
