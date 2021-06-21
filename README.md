@@ -31,7 +31,7 @@ Esta semana se evaluará:
 
 ## Autor
 
-- [EduardoCitelli](https://www.github.com/EduardoCitelli)
+- [Eduardo Citelli](https://www.github.com/EduardoCitelli)
 
 ## Ver
 
