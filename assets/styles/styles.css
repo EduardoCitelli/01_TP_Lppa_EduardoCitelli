@@ -96,38 +96,7 @@ p {
     color: #777
 }
 
-#boardContainer {
-    width: 490px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#board {
-    border: 5px solid #999999;
-    position: relative;
-    z-index: 0;
-    margin-top: 45px;
-    height: 480px;
-}
-
-#board .checkersSquare.bright {
-    background: -moz-linear-gradient(center top, #eeeeee, #ffffff) repeat scroll 0 0 transparent;
-    background: -webkit-gradient(linear, center bottom, center top, from(#ffffff), to(#eeeeee));
-    background-color: white;
-}
-
-#board .checkersSquare.dark {
-    background: -moz-linear-gradient(center top, #222222, #333333) repeat scroll 0 0 transparent;
-    background: -webkit-gradient(linear, center bottom, center top, from(#333333), to(#222222));
-    background-color: black;
-}
-
-#board .checkersSquare {
-    height: 60px;
-    width: 60px;
-    float: left;
-}
 
 #buttonContainer {
     margin-bottom: 10px;
@@ -153,8 +122,8 @@ p {
     -webkit-box-shadow: 0 0 8px 1px #888888;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
+    transition-duration: 0.2s;
     /* position: relative;
-    transition-duration: 0.4s;
     overflow: hidden; */
 }
 
@@ -180,42 +149,14 @@ p {
     padding-left: 60px;
 }
 
-.board_row:nth-child(odd) .checkersSquare:nth-child(odd),
-.board_row:nth-child(even) .checkersSquare:nth-child(even) {
-  background: -moz-linear-gradient(center top, #eeeeee, #ffffff) repeat scroll 0 0 transparent;
-  /* background: -webkit-gradient(linear, center bottom, center top, from(#ffffff), to(#eeeeee)); */
-  background-color: white;
-}
-
-.board_row:nth-child(even) .checkersSquare:nth-child(odd),
-.board_row:nth-child(odd) .checkersSquare:nth-child(even) {
-  background: -moz-linear-gradient(center top, #222222, #333333) repeat scroll 0 0 transparent;
-  /* background: -webkit-gradient(linear, center bottom, center top, from(#333333), to(#222222)); */
-  background-color: black;
-}
-
-.redPiece,
-.whitePiece {
-  background-size: cover;
-}
-
-.redPiece {
-  background-image: url(./img/red-piece.png);
-}
-
-.whitePiece {
-  background-image: url(./img/white-piece.png);
-}
-
-#board .selected {
-    background-color: #074F7F;
-    -webkit-box-shadow: 0 0 10px 7px #5aade6;
-}
-
 #newGameButton:active {
     transform: translateY(4px);
 }
 
 #newGameButton:hover {
     opacity: 0.75;
+}
+
+#turnText {
+    text-align: center;
 }
