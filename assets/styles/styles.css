@@ -96,8 +96,6 @@ p {
     color: #777
 }
 
-
-
 #buttonContainer {
     margin-bottom: 10px;
     text-align:center;
@@ -122,9 +120,15 @@ p {
     -webkit-box-shadow: 0 0 8px 1px #888888;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
-    transition-duration: 0.2s;
-    /* position: relative;
-    overflow: hidden; */
+    transition-duration: 0.4s;
+}
+
+#newGameButton:active {
+    transform: translateY(4px);
+}
+
+#newGameButton:hover {
+    opacity: 0.75;
 }
 
 #description {
@@ -147,14 +151,6 @@ p {
     color: #777;
     font-size: 12px;
     padding-left: 60px;
-}
-
-#newGameButton:active {
-    transform: translateY(4px);
-}
-
-#newGameButton:hover {
-    opacity: 0.75;
 }
 
 #turnText {
