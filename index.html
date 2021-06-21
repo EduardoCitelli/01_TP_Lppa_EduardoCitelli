@@ -4,8 +4,10 @@
 <head>
     <title>Mini Damas</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="Description" content="Juega a las damas online. Reta al ordenador y consigue ganarle en el menor tiempo posible." />
+    <meta name="Description"
+        content="Juega a las damas online. Reta al ordenador y consigue ganarle en el menor tiempo posible." />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" async src="app.js"></script>
 </head>
 
 <body>
@@ -13,7 +15,9 @@
     <nav class="topBar">
         <div class="container">
             <ul class="title">
-                <li><h1><a class="firstNavButton" href="#">Mini Damas</a></h1></li>
+                <li>
+                    <h1><a class="firstNavButton" href="#">Mini Damas</a></h1>
+                </li>
                 <li><a class="navButtons" href="#">Damas</a></li>
                 <li><a class="navButtons" href="#">¿Qué es?</a></li>
             </ul>
@@ -30,82 +34,10 @@
         <div id="boardContainer">
 
             <div id="board">
-
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
-                <div class="checkersSquare dark"></div>
-                <div class="checkersSquare bright"></div>
             </div>
 
             <div id="buttonContainer" class="text-center">
-                <div id="newGameButton">
+                <button class="button" id="newGameButton">
                     Nueva partida
                 </div>
             </div>
