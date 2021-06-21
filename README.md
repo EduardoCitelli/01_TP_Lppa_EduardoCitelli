@@ -1,4 +1,4 @@
-# 01 TP Lppa - EduardoCitelli
+# TP L.P.P.A - Eduardo Citelli
 
 ## Contenido de la tarea
 
