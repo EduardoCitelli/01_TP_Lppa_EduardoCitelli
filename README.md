@@ -35,4 +35,4 @@ Esta semana se evaluará:
 
 ## Ver
 
-- [VerProyecto](https://eduardocitelli.github.io/01_TP_Lppa_EduardoCitelli/)
+- [Ver Proyecto](https://eduardocitelli.github.io/01_TP_Lppa_EduardoCitelli/)
