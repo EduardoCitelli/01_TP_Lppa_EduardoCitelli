@@ -44,9 +44,9 @@
 }
 
 .redPiece {
-  background-image: url(../../img/red-piece.png);
+  background-image: url(../img/red-piece.png);
 }
 
 .whitePiece {
-  background-image: url(../../img/white-piece.png);
+  background-image: url(../img/white-piece.png);
 }

@@ -1,5 +1,5 @@
 var turn = 0;
-const urlNotAllowed = "./img/notAllowed.png";
+const urlNotAllowed = "./assets/img/notAllowed.png";
 
 window.onload = InitializeBoard();
 
