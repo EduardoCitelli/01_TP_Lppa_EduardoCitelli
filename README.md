@@ -36,3 +36,11 @@ Esta semana se evaluará:
 ## Ver
 
 - [Ver Proyecto](https://eduardocitelli.github.io/01_TP_Lppa_EduardoCitelli/)
+
+# Set up
+
+```console
+$ cd to/some/folder
+$ git clone https://github.com/EduardoCitelli/01_TP_Lppa_EduardoCitelli.git
+$ cd 01_TP_Lppa_EduardoCitelli
+$ git checkout develop
